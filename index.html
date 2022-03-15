@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&display=swap" rel="stylesheet">
+		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+
+    <link rel="shortcut icon" href="./src/image/g-Music.png">
+    <title>Lyrics</title>
+    <link rel="stylesheet" href="./src/build/css/app.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="margin">
+
+            <header class="title">
+                <h3>Search Lyrics</h3>
+                <p class="titleP">Song Title</p>
+            </header>
+            <div class="search"></div>
+            <form class="form-search" action="">
+
+                <div class="artist">
+                    <label for="artist">Artist<span> * :</span></label>
+                    <input class="artistInp" type="text" value="" autocomplete="off" name="artist">
+                </div>
+
+                <div class="song">
+                    <label for="song">Title<span> * : </span></label>
+                    <input class="songInp" type="text" value="" autocomplete="off" name="song">
+                </div>
+
+                <input class="submit" type="submit">
+                <button class="submit"type="reset">reset</button>
+            </form>
+
+
+            <div class="error">
+            </div>
+
+            <div class="completeLyrics">
+                <h2 class="result"></h2>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    </div>
+
+    <script src="./src/js/script.js" type="module"></script>
+</body>
+
+</html>
